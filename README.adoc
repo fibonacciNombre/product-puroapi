@@ -1,0 +1,22 @@
+= product-puroapi image:https://badges.gitter.im/spring-io/initializr.svg[link="https://gitter.im/spring-io/initializr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"]
+:library: https://github.com/spring-io/initializr
+
+[[build]]
+== Building from Source
+
+You need Java 1.8 and a bash-like shell.
+
+[[building]]
+=== Building
+
+Invoke the build at the root of the project
+
+[indent=0]
+----
+    $ ./mvnw clean install
+----
+
+
+== License
+The start.spring.io website is Open Source software released under the
+http://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license].
